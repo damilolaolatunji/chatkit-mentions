@@ -72,6 +72,7 @@ class App extends Component {
 
   handleKeyPress = event => {
     if (event.key === 'Enter') {
+      event.preventDefault();
       this.sendMessage();
     }
   };
