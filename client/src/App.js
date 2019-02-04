@@ -141,7 +141,7 @@ class App extends Component {
 
     const ChatSession = messages.map(message => {
       const messageText = message.text;
-      const mentions = messageText.match(/@[a-zA-Z]+/g) || [];
+      const mentions = messageText.match(/@[a-zA-Z0-9]+/g) || [];
       const roomUserNames = this.state.roomUsers.map(user => `@${user.name}`);
       const mentionedUsers = mentions.filter(username =>
         roomUserNames.includes(username)
