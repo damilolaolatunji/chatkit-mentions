@@ -1,6 +1,6 @@
 #  Mention a chatroom member with Chatkit
 
-Implement @mentions in a Chatkit powered chat app. Tutorial:
+Implement @mentions in a Chatkit powered chat app. Tutorial: https://pusher.com/tutorials/user-mentions-react-chatroom
 
 ## Getting Started
 
